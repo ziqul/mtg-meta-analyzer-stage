@@ -1,0 +1,42 @@
+name: Deploy to GitHub Pages
+
+# site/ is build output pushed by the Stage Deploy workflow in
+# ziqul/mtg-meta-analyzer. Every push that changes it publishes it here.
+# Pushes made with a GitHub App token start workflows (GITHUB_TOKEN pushes
+# would not), which is what lets that push trigger this.
+
+on:
+  push:
+    branches: [master]
+    paths: ['site/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# A newer push replaces a deploy that is still running.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
