@@ -1,0 +1,202 @@
+format: Premodern
+date: "2026-10-29"
+# Draft from https://www.mtggoldfish.com/metagame/premodern — share >= 3%, inclusion >= 90%, top 6 cards
+archetypes:
+  - name: "Selesnya Enchantress"
+    # 10.8% of the metagame, 102 decks
+    signatureCards:
+      - name: "Argothian Enchantress"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Brushland"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Enchantress's Presence"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Serra's Sanctum"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Windswept Heath"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Seal of Cleansing"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Mono-Blue Stiflenought"
+    # 10.8% of the metagame, 102 decks
+    signatureCards:
+      - name: "Counterspell"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Foil"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Gush"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Phyrexian Dreadnought"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Portent"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Stifle"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Mono-Black Midrange"
+    # 9.4% of the metagame, 88 decks
+    signatureCards:
+      - name: "Duress"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Hypnotic Specter"
+        minCopies: 4
+        # in 97% of decks
+      - name: "Mishra's Factory"
+        minCopies: 4
+        # in 96% of decks
+      - name: "Smother"
+        minCopies: 2
+        # in 95% of decks
+      - name: "Dark Ritual"
+        minCopies: 4
+        # in 93% of decks
+      - name: "Diabolic Edict"
+        minCopies: 2
+        # in 91% of decks
+  - name: "Mono-Red Sligh"
+    # 7% of the metagame, 66 decks
+    signatureCards:
+      - name: "Fireblast"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lightning Bolt"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mogg Fanatic"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Grim Lavamancer"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Incinerate"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Seal of Fire"
+        minCopies: 4
+        # in 95% of decks
+  - name: "Naya Terragedon"
+    # 5.2% of the metagame, 49 decks
+    signatureCards:
+      - name: "Armageddon"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mox Diamond"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Swords to Plowshares"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Terravore"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Wasteland"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Windswept Heath"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Psychatog"
+    # 4.7% of the metagame, 44 decks
+    signatureCards:
+      - name: "Counterspell"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Gush"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Portent"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Psychatog"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Foil"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Duress"
+        minCopies: 4
+        # in 98% of decks
+  - name: "Azorius Stiflenought"
+    # 4.6% of the metagame, 43 decks
+    signatureCards:
+      - name: "Counterspell"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Adarkar Wastes"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Flooded Strand"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Impulse"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Swords to Plowshares"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Decree of Justice"
+        minCopies: 3
+        # in 98% of decks
+  - name: "The Rock"
+    # 3.2% of the metagame, 30 decks
+    signatureCards:
+      - name: "Llanowar Wastes"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Pernicious Deed"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Cabal Therapy"
+        minCopies: 4
+        # in 97% of decks
+      - name: "Treetop Village"
+        minCopies: 4
+        # in 97% of decks
+      - name: "Wall of Blossoms"
+        minCopies: 4
+        # in 97% of decks
+      - name: "Duress"
+        minCopies: 4
+        # in 94% of decks
+  - name: "Mono-White"
+    # 3.1% of the metagame, 29 decks
+    signatureCards:
+      - name: "Swords to Plowshares"
+        minCopies: 4
+        # in 97% of decks
+      - name: "Exalted Angel"
+        minCopies: 3
+        # in 94% of decks
+  - name: "5c Hermit Druid"
+    # 3% of the metagame, 28 decks
+    signatureCards:
+      - name: "Cabal Therapy"
+        minCopies: 4
+        # in 100% of decks
+      - name: "City of Brass"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Llanowar Wastes"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Unearth"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Yavimaya Coast"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Birds of Paradise"
+        minCopies: 4
+        # in 98% of decks

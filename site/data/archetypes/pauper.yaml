@@ -1,0 +1,232 @@
+format: Pauper
+date: "2026-10-29"
+# Draft from https://www.mtggoldfish.com/metagame/pauper — share >= 3%, inclusion >= 90%, top 6 cards
+archetypes:
+  - name: "Mono Red Madness"
+    # 13.2% of the metagame, 371 decks
+    signatureCards:
+      - name: "Fiery Temper"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Grab the Prize"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Guttersnipe"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lava Dart"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lightning Bolt"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sneaky Snacker"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Blue Terror"
+    # 7.6% of the metagame, 215 decks
+    signatureCards:
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Counterspell"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lorien Revealed"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Thought Scour"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Tolarian Terror"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Cryptic Serpent"
+        minCopies: 4
+        # in 98% of decks
+  - name: "Dimir Faeries"
+    # 6.2% of the metagame, 175 decks
+    signatureCards:
+      - name: "Counterspell"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lorien Revealed"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Spellstutter Sprite"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Faerie Seer"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Ninja of the Deep Hours"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Baleful Strix"
+        minCopies: 4
+        # in 99% of decks
+  - name: "Tron"
+    # 5.7% of the metagame, 159 decks
+    signatureCards:
+      - name: "Expedition Map"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Urza's Mine"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Urza's Power Plant"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Urza's Tower"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Giant's Boulder"
+        minCopies: 4
+        # in 97% of decks
+  - name: "Elves"
+    # 5.4% of the metagame, 153 decks
+    signatureCards:
+      - name: "Priest of Titania"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Quirion Ranger"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Winding Way"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Nyxborn Hydra"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Lead the Stampede"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Timberwatch Elf"
+        minCopies: 4
+        # in 98% of decks
+  - name: "Grixis Affinity"
+    # 4.7% of the metagame, 133 decks
+    signatureCards:
+      - name: "Drossforge Bridge"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mistvault Bridge"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Refurbished Familiar"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Thoughtcast"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Vault of Whispers"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Seat of the Synod"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Bogles"
+    # 4.3% of the metagame, 120 decks
+    signatureCards:
+      - name: "Abundant Growth"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ancestral Mask"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Armadillo Cloak"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ethereal Armor"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Gladecover Scout"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Rancor"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Spy Combo"
+    # 4.2% of the metagame, 118 decks
+    signatureCards:
+      - name: "Balustrade Spy"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Generous Ent"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Land Grant"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lead the Stampede"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sagu Wildling"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Dread Return"
+        minCopies: 2
+        # in 100% of decks
+  - name: "Mono Red Rally"
+    # 3.9% of the metagame, 109 decks
+    signatureCards:
+      - name: "Clockwork Percussionist"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Goblin Bushwhacker"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Goblin Tomb Raider"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lightning Bolt"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Rally at the Hornburg"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Burning-Tree Emissary"
+        minCopies: 4
+        # in 99% of decks
+  - name: "Ruby Storm"
+    # 3.4% of the metagame, 95 decks
+    signatureCards:
+      - name: "Glimpse the Impossible"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Goblin Anarchomancer"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Hickory Woodlot"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Manamorphose"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sandstone Needle"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Seething Song"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Grixis Control"
+    # 3.1% of the metagame, 87 decks
+    signatureCards:
+      - name: "Counterspell"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lorien Revealed"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Thorn of the Black Rose"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Baleful Strix"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Murmuring Mystic"
+        minCopies: 3
+        # in 99% of decks
+      - name: "Campfire"
+        minCopies: 2
+        # in 99% of decks

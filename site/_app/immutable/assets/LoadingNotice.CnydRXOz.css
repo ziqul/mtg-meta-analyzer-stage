@@ -1,0 +1,1 @@
+.loading-notice.svelte-zs9qi0{display:flex;align-items:center;gap:.5rem;color:var(--color-text-muted);margin:2rem 0}.spinner.svelte-zs9qi0{width:1rem;height:1rem;border:2px solid var(--color-border);border-top-color:var(--color-text-muted);border-radius:50%;animation:svelte-zs9qi0-spin .8s linear infinite}@keyframes svelte-zs9qi0-spin{to{transform:rotate(360deg)}}

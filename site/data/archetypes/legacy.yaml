@@ -1,0 +1,235 @@
+format: Legacy
+date: "2026-10-29"
+# Draft from https://www.mtggoldfish.com/metagame/legacy — share >= 3%, inclusion >= 90%, top 6 cards
+archetypes:
+  - name: "Dimir Tempo"
+    # 12.6% of the metagame, 200 decks
+    signatureCards:
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Daze"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Underground Sea"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Wasteland"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ponder"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Boros Energy"
+    # 7.6% of the metagame, 120 decks
+    signatureCards:
+      - name: "Ajani, Nacatl Pariah"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Guide of Souls"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ocelot Pride"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Wasteland"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Goblin Bombardment"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Plateau"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Izzet Delver"
+    # 6.8% of the metagame, 108 decks
+    signatureCards:
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Dragon's Rage Channeler"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lightning Bolt"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mishra's Bauble"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ponder"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Doomsday"
+    # 5.8% of the metagame, 92 decks
+    signatureCards:
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Dark Ritual"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Doomsday"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ponder"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Underground Sea"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lotus Petal"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Eldrazi"
+    # 4.6% of the metagame, 73 decks
+    signatureCards:
+      - name: "Ancient Tomb"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Eldrazi Temple"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Glaring Fleshraker"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Kozilek's Command"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lotus Petal"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Thought-Knot Seer"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Lands"
+    # 4.4% of the metagame, 69 decks
+    signatureCards:
+      - name: "Crop Rotation"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Exploration"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Life from the Loam"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mox Diamond"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Urza's Saga"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Wasteland"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Sneak and Show"
+    # 4.2% of the metagame, 66 decks
+    signatureCards:
+      - name: "Atraxa, Grand Unifier"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lotus Petal"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ponder"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Scalding Tarn"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Mystic Forge Combo"
+    # 3.8% of the metagame, 60 decks
+    signatureCards:
+      - name: "Ancient Tomb"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Grim Monolith"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Karn, the Great Creator"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Kozilek's Command"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lotus Petal"
+        minCopies: 4
+        # in 100% of decks
+      - name: "The One Ring"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Death and Taxes (Yorion) - Black/White"
+    # 3.8% of the metagame, 60 decks
+    signatureCards:
+      - name: "Aether Vial"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Karakas"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Marsh Flats"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Overlord of the Balemurk"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Phelia, Exuberant Shepherd"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Prismatic Vista"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Beanstalk Control (Non-Yorion)"
+    # 3.8% of the metagame, 60 decks
+    signatureCards:
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Flooded Strand"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ponder"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Swords to Plowshares"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Up the Beanstalk"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Aluren"
+    # 3.8% of the metagame, 60 decks
+    signatureCards:
+      - name: "Acererak the Archlich"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Aluren"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ancient Tomb"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Atraxa, Grand Unifier"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Brainstorm"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks

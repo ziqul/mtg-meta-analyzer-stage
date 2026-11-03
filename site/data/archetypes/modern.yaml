@@ -1,0 +1,277 @@
+format: Modern
+date: "2026-10-29"
+# Draft from https://www.mtggoldfish.com/metagame/modern — share >= 3%, inclusion >= 90%, top 6 cards
+archetypes:
+  - name: "Eldrazi Ramp"
+    # 9.6% of the metagame, 687 decks
+    signatureCards:
+      - name: "Eldrazi Temple"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Emrakul, the Promised End"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Kozilek's Command"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Malevolent Rumble"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sowing Mycospawn"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ugin's Labyrinth"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Izzet Prowess"
+    # 7.7% of the metagame, 552 decks
+    signatureCards:
+      - name: "Cori-Steel Cutter"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Dragon's Rage Channeler"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lava Dart"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Lightning Bolt"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mishra's Bauble"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Monastery Swiftspear"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Affinity"
+    # 6.3% of the metagame, 449 decks
+    signatureCards:
+      - name: "Mishra's Bauble"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mox Opal"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Urza's Saga"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Kappa Cannoneer"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Pinnacle Emissary"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Tormod's Crypt"
+        minCopies: 4
+        # in 99% of decks
+  - name: "Domain Zoo"
+    # 5.9% of the metagame, 421 decks
+    signatureCards:
+      - name: "Leyline Binding"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Scion of Draco"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Territorial Kavu"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Steam Vents"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Leyline of the Guildpact"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Ragavan, Nimble Pilferer"
+        minCopies: 4
+        # in 99% of decks
+  - name: "Eldrazi"
+    # 5.9% of the metagame, 420 decks
+    signatureCards:
+      - name: "Eldrazi Temple"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Kozilek's Command"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sowing Mycospawn"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Basking Broodscale"
+        minCopies: 4
+        # in 96% of decks
+      - name: "Emrakul, the Promised End"
+        minCopies: 4
+        # in 96% of decks
+      - name: "Malevolent Rumble"
+        minCopies: 4
+        # in 96% of decks
+  - name: "Boros Energy"
+    # 5.7% of the metagame, 406 decks
+    signatureCards:
+      - name: "Ajani, Nacatl Pariah"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Arid Mesa"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Galvanic Discharge"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Guide of Souls"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ocelot Pride"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Voice of Victory"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Esper Blink"
+    # 5.6% of the metagame, 401 decks
+    signatureCards:
+      - name: "Flooded Strand"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Marsh Flats"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Hallowed Fountain"
+        minCopies: 1
+        # in 100% of decks
+      - name: "Meticulous Archive"
+        minCopies: 1
+        # in 100% of decks
+      - name: "Quantum Riddler"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Solitude"
+        minCopies: 4
+        # in 99% of decks
+  - name: "Goryo's Vengeance"
+    # 4% of the metagame, 285 decks
+    signatureCards:
+      - name: "Goryo's Vengeance"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Atraxa, Grand Unifier"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Polluted Delta"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Watery Grave"
+        minCopies: 1
+        # in 99% of decks
+      - name: "Psychic Frog"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Godless Shrine"
+        minCopies: 1
+        # in 98% of decks
+  - name: "Jeskai Energy"
+    # 4% of the metagame, 283 decks
+    signatureCards:
+      - name: "Galvanic Discharge"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Flooded Strand"
+        minCopies: 4
+        # in 99% of decks
+      - name: "Hallowed Fountain"
+        minCopies: 1
+        # in 99% of decks
+      - name: "Meticulous Archive"
+        minCopies: 1
+        # in 99% of decks
+      - name: "Arid Mesa"
+        minCopies: 4
+        # in 98% of decks
+      - name: "Solitude"
+        minCopies: 4
+        # in 97% of decks
+  - name: "Azorius Control"
+    # 3.7% of the metagame, 264 decks
+    signatureCards:
+      - name: "Flooded Strand"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Solitude"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Teferi, Time Raveler"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Hallowed Fountain"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Meticulous Archive"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Orim's Chant"
+        minCopies: 4
+        # in 97% of decks
+  - name: "Ruby Storm"
+    # 3.6% of the metagame, 258 decks
+    signatureCards:
+      - name: "Desperate Ritual"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Manamorphose"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Pyretic Ritual"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ral, Monsoon Mage"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Past in Flames"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Hex Magic"
+        minCopies: 4
+        # in 97% of decks
+  - name: "Amulet Titan"
+    # 3.4% of the metagame, 241 decks
+    signatureCards:
+      - name: "Amulet of Vigor"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Arboreal Grazer"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Crumbling Vestige"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Primeval Titan"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Simic Growth Chamber"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Spelunking"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Rakdos Midrange"
+    # 3.1% of the metagame, 222 decks
+    signatureCards:
+      - name: "Bloodstained Mire"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Detective's Phoenix"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mishra's Bauble"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Moonshadow"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Nethergoyf"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Street Wraith"
+        minCopies: 4
+        # in 100% of decks

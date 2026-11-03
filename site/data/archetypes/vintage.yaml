@@ -1,0 +1,235 @@
+format: Vintage
+date: "2026-10-28"
+# Draft from https://www.mtggoldfish.com/metagame/vintage — share >= 3%, inclusion >= 90%, top 6 cards
+archetypes:
+  - name: "Jewel Shops"
+    # 17.9% of the metagame, 106 decks
+    signatureCards:
+      - name: "Ancient Tomb"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Coveted Jewel"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mishra's Workshop"
+        minCopies: 4
+        # in 100% of decks
+      - name: "The One Ring"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sink into Stupor"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Mono-White Initiative"
+    # 12.3% of the metagame, 73 decks
+    signatureCards:
+      - name: "Ancient Tomb"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Archon of Emeria"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Cavern of Souls"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Chrome Mox"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Clarion Conqueror"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Seasoned Dungeoneer"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Esper Lurrus Control"
+    # 10.6% of the metagame, 63 decks
+    signatureCards:
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Bilbo, Thief in the Night"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Flow State"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Force of Negation"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Lorien Revealed"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Swords to Plowshares"
+        minCopies: 3
+        # in 100% of decks
+  - name: "Lurrus PO"
+    # 8.6% of the metagame, 51 decks
+    signatureCards:
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Stock Up"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Thundertrap Trainer"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Paradoxical Outcome"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Tundra"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Ancestral Recall"
+        minCopies: 1
+        # in 100% of decks
+  - name: "Dimir Lurrus Control"
+    # 7.8% of the metagame, 46 decks
+    signatureCards:
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Polluted Delta"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Underground Sea"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Fatal Push"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Force of Negation"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Ancestral Recall"
+        minCopies: 1
+        # in 100% of decks
+  - name: "Raker Shops"
+    # 4.6% of the metagame, 27 decks
+    signatureCards:
+      - name: "Ancient Tomb"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Glaring Fleshraker"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Grim Monolith"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Mishra's Workshop"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sensei's Divining Top"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Tezzeret, Cruel Captain"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Lurrus Breach"
+    # 4.4% of the metagame, 26 decks
+    signatureCards:
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Stock Up"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Volcanic Island"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Scalding Tarn"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Underground Sea"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Underworld Breach"
+        minCopies: 2
+        # in 100% of decks
+  - name: "Paradoxical Outcome"
+    # 3.9% of the metagame, 23 decks
+    signatureCards:
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Paradoxical Outcome"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Stock Up"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Tezzeret, Cruel Captain"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Sensei's Divining Top"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Ancestral Recall"
+        minCopies: 1
+        # in 100% of decks
+  - name: "Dredge"
+    # 3.7% of the metagame, 22 decks
+    signatureCards:
+      - name: "Bazaar of Baghdad"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Creeping Chill"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Grief"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Ichorid"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Narcomoeba"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Serum Powder"
+        minCopies: 4
+        # in 100% of decks
+  - name: "Oath of Druids"
+    # 3.5% of the metagame, 21 decks
+    signatureCards:
+      - name: "Oath of Druids"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Stock Up"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Atraxa, Grand Unifier"
+        minCopies: 3
+        # in 100% of decks
+      - name: "Tropical Island"
+        minCopies: 2
+        # in 100% of decks
+      - name: "Forbidden Orchard"
+        minCopies: 4
+        # in 95% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 95% of decks
+  - name: "Counter Vine"
+    # 3.2% of the metagame, 19 decks
+    signatureCards:
+      - name: "Basking Rootwalla"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Bazaar of Baghdad"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Blazing Rootwalla"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Negation"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Force of Will"
+        minCopies: 4
+        # in 100% of decks
+      - name: "Hollow One"
+        minCopies: 4
+        # in 100% of decks
