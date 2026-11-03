@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 # site/ is build output pushed by the Stage Deploy workflow in
 # ziqul/mtg-meta-analyzer. Every push that changes it publishes it here.
-# Pushes made with a GitHub App token start workflows (GITHUB_TOKEN pushes
-# would not), which is what lets that push trigger this.
+# Pushes made with a deploy key start workflows (GITHUB_TOKEN pushes would
+# not), which is what lets that push trigger this.
 
 on:
   push:
